@@ -1,0 +1,47 @@
+header {
+	border: 1px solid red; 
+}
+
+
+.navigation ul > li {
+	display: inline-block;
+	padding: 10px 10px;
+	list-style-type: none; 
+	text-decoration: underline;
+	cursor: pointer;
+}  
+
+.navigation ul {
+	text-align: center;
+}
+
+.disabled {
+	color: gray;
+}
+
+.disabled > a {
+	color: purple;
+}
+
+.active {
+	color: yellow;
+}
+/*  I know you use first_child nth_child and first of type to solve this but need to work on 
+how to specifiy what element I want the CSS apllied to */
+
+div.color div:first_child {
+	color: red;
+}
+
+/*
+
+
+div.color  div h4:first_of_type {
+	background: red;
+}
+
+
+.color div > div :nth_child(2n+0) {
+	color: blue;
+}
+*/

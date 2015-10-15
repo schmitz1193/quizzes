@@ -1,0 +1,120 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css101.css">
+    <title>CSS 101 Quizz</title>
+  </head>
+
+
+<!--
+  There are two missing closing tags in this document. Make sure you add them back in.
+-->
+
+<!-- The header element should have a 1px border. Color, you pick -->
+<header>
+  <!-- 
+    1. Convert the ul in the navigation element into a series of horizontal links with # as the href value, without a bullets, centered vertically, and have some space between them horizontally.
+    2. Ensure that the navigation is semantically marked as such (i.e. wrap it in the correct HTML tag)
+  -->
+  <nav class="navigation">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">Blog</a></li>
+      </ul>
+  </nav>
+
+</header>
+
+<!--
+  1. Any text in an element with class "disabled" should be colored grey, unless it is inside an anchor tag. If inside an anchor, it should be colored purple.
+  2. Any text inside an element with a class of "active" should be colored yellow.
+  3. Section elements should be contained within an article element.
+-->
+<body>
+  <article>
+    <section>
+    <div class="month-list">
+      <ul>
+        <li>
+          <a href="#">January</a>
+          <span class="disabled">My favorite month</span>
+        </li>
+        <li>
+          <a href="#">
+            <span class="active">February</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="disabled">March</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">April</a>
+        </li>
+        <li>
+          <a href="#">
+            <div class="promo">
+              <span class="disabled">May</span>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">June</a>
+        </li>
+        <li>
+          <a href="#">July</a>
+        </li>
+        <li>
+          <a href="#">August</a>
+          <span class="disabled">My least favorite month</span>
+        </li>
+        <li>
+          <a href="#">September</a>
+        </li>
+      </ul>
+    </div>
+    </section>
+  </article>
+
+<!--
+  1. Make the "I'm red" text colored red
+  2. Make the "I'm blue" text colored blue
+  3. The sibling h4 of the red element should have a background color of red
+  4. The sibling h4 of the blue element should have background color of blue
+  5. An h4 that is a direct child of grandparent should have a 1px border with rounded corners.
+-->
+
+  <div class="grandparent">
+    <div class="parent">
+      <h4>Child of parent</h4>
+      <div class="color">
+        <div>I'm red!</div>
+        <h4>I'm red's sister
+        <div>I'm blue!</div>
+        <h4>I'm blue's brother</h4>
+      </div>
+    </div>
+    <h4>Child of grandparent</h4>
+  </div>
+</body>
+
+<footer class="padded">
+  <div class="promo">
+    Purchase a book today and receive the eBook for free!
+  </div>
+
+  <div class="disclaimer">
+    Only one purchase per household. 
+    <a href="#">
+      <span class="footer-link">
+        <span class="disabled">
+          Privacy Policy
+        </span>
+      </span>
+    </a>
+  </div>
+</footer>
