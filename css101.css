@@ -27,20 +27,17 @@ header {
 	color: yellow;
 }
 /*  I know you use first_child nth_child and first of type to solve this but need to work on 
-how to specifiy what element I want the CSS apllied to */
+how to specifiy what element I want the CSS appllied to */
 
-div.color div:first_child {
+div.color:first_child {
 	color: red;
 }
 
-/*
-
-
-div.color  div h4:first_of_type {
+div.color  h4:first_of_type {
 	background: red;
 }
 
-
+/*
 .color div > div :nth_child(2n+0) {
 	color: blue;
 }
