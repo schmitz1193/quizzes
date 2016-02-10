@@ -1,0 +1,16 @@
+.pretty {
+	background-color: green;
+}
+
+.border {
+	border: 2px solid black;
+}
+
+#fruit-list > div:first-child {
+	font-weight: bold;
+}
+
+#fruit-list > div:last-child {
+	font-size: 20px;
+	background: white;
+}
