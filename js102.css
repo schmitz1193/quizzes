@@ -1,0 +1,17 @@
+#number {
+	border: 2px solid black;
+}
+
+/**** even children have font color of red ***/
+div div:nth-child(even) {
+    color: red;
+}
+
+
+/**** odd children have background color azure ***/
+div div:nth-child(odd) {
+    background: azure;
+}
+
+
+
