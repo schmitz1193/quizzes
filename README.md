@@ -1,8 +1,10 @@
-Create a variable that is an empty string.
+#JS101 Quizz
 
-Create a variable that holds an empty array.
+1. Create a variable that is an empty string.
 
-Create a variable that holds the value of 2
+1. Create a variable that holds an empty array.
+
+1. Create a variable that holds the value of 2
 
 Add the names of ten fruits to the array.
 
