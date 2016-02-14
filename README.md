@@ -1,3 +1,5 @@
+#JS102 Quizz
+
 1. Clone this repository into your `quizzes` directory.
 1. Create an `index.html` and a `js102.js` file and link them together.
 1. Write a JavaScript function that accepts an array of integers as an argument, and returns a new array that is sorted in ascending order (e.g. 1, 2, 3, 4). Remember that the JavaScript sort function doesn't work as expected on integers. You have to write a lambda expression for the sort method. A quick Google search should help if it's not in your notes.
